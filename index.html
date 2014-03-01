@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PopUp Window</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="popUpWindow.css">
+    
+    <script>
+    document.getElementsByTagName("html")[0].className = "js";
+    </script>
+    
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="popUpWindow.js"></script>
+    <script src="demo.js"></script>
+
+    <style type="text/css">
+        body{
+            background:#e6e6e6;
+        }
+        .container {
+            padding:20px;
+        }
+
+        .btn-yes,
+        .btn-no {
+            padding: 8px 15px;
+            display: inline-block;
+            background: #3B4658;
+            border-radius: 3px;
+            margin-left: 10px;
+            color: #fff;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .btn-yes {
+            background: #56b625;
+        }
+
+        .btn-no {
+            background: #c4312e;
+        }
+    	
+    	.demo a {
+    	  font-size: 15px;
+    	  color: white;
+    	  background: #3B4658;
+    	  display: block;
+    	  padding: 15px;
+    	  text-align: center;
+    	  border: 3px solid #131C28;
+    	  margin-bottom: 10px;
+    	}
+
+    	.demo a:hover,
+    	.demo a:focus {
+    	  background: #6A798E;
+    	}
+    </style>
+</head>
+<body>
+    <div class="container">
+		<div class="demo">
+            <a id="open-pop-up-1" href="#pop-up-1">Basic</a>
+            <a id="open-pop-up-2" href="#pop-up-2">Buttons</a>
+            <a id="open-pop-up-3" href="#pop-up-3">Custom buttons</a>
+            <a id="open-pop-up-4" href="#pop-up-4">On close callback</a>
+            <a id="open-pop-up-5" href="#pop-up-5">Modal</a>
+            <a id="open-pop-up-6" href="#pop-up-6">Small size</a>
+            <a id="open-pop-up-7" href="#pop-up-7">Medium size</a>
+		</div>
+        <div id="pop-up-1" class="pop-up-display-content">
+            <h1>Basic</h1>
+            <p>Enim, voluptate, neque facilis incidunt maiores quasi placeat harum itaque ducimus cumque quas expedita hic voluptas culpa error porro qui ullam iste provident mollitia fuga repellat excepturi repellendus earum at sapiente optio dolores ratione totam unde minima quibusdam delectus fugiat nihil nobis inventore dolorum quod. Deserunt, iusto, velit laudantium molestiae laborum neque debitis officia alias cum nulla hic amet consectetur explicabo quod ratione aliquid sed iure minima tempora in tempore maxime fuga quas numquam possimus cumque earum ipsa exercitationem iste.</p>
+        </div>
+        <div id="pop-up-2" class="pop-up-display-content">
+            <h1>Buttons</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, voluptate, illum, recusandae error suscipit tempora aspernatur adipisci dolore quasi dolores quidem beatae praesentium molestiae ullam nostrum inventore aperiam explicabo libero minima dolor at eos commodi vero animi voluptatum nobis quos. Eligendi est mollitia obcaecati aspernatur pariatur aliquid quos repellendus amet architecto similique!</p>
+        </div>
+        <div id="pop-up-3" class="pop-up-display-content">
+            <h1>Custom buttons</h1>
+            <p>Ipsa, esse, est, deserunt, deleniti libero aliquid accusantium et vitae laboriosam voluptatibus ut sed molestiae expedita aspernatur officia similique minima laudantium assumenda in consequuntur explicabo corrupti perspiciatis. Deserunt, iusto, velit laudantium molestiae laborum neque debitis officia alias cum nulla hic amet consectetur explicabo quod ratione aliquid sed iure minima tempora in tempore maxime fuga quas numquam possimus cumque earum ipsa exercitationem iste. Sit, vel, cum consectetur magni natus in quasi!</p>
+        </div>
+        <div id="pop-up-4" class="pop-up-display-content">
+            <h1>On close callback</h1>
+            <p>Excepturi repellendus earum at sapiente optio dolores ratione totam unde minima quibusdam delectus fugiat nihil nobis inventore dolorum quod. Deserunt, iusto, velit laudantium molestiae laborum neque debitis officia alias cum nulla hic amet consectetur explicabo quod ratione aliquid sed iure minima tempora in tempore maxime fuga quas numquam possimus cumque earum ipsa exercitationem iste. Sit, vel, cum consectetur magni natus in quasi! Explicabo, quia, minima illo rem possimus facere debitis tempora doloribus maxime ipsum suscipit id consequuntur aut nostrum eveniet iste ipsam autem praesentium excepturi quo ab iure voluptate a architecto nobis ea laborum pariatur.</p>
+        </div>
+        <div id="pop-up-5" class="pop-up-display-content">
+            <h1>Modal</h1>
+            <p>Ipsa, esse, est, deserunt, deleniti libero aliquid accusantium et vitae laboriosam voluptatibus ut sed molestiae expedita aspernatur officia similique minima laudantium assumenda in consequuntur explicabo corrupti perspiciatis. Enim, voluptate, neque facilis incidunt maiores quasi placeat harum itaque ducimus cumque quas expedita hic voluptas culpa error porro qui ullam iste provident mollitia fuga repellat excepturi repellendus earum at sapiente optio dolores ratione totam unde minima quibusdam delectus fugiat nihil nobis inventore dolorum quod.</p>
+        </div>
+        <div id="pop-up-6" class="pop-up-display-content">
+            <h1>Small size</h1>
+            <p>Ipsa, esse, est, deserunt, deleniti libero aliquid accusantium et vitae laboriosam voluptatibus ut sed molestiae expedita aspernatur officia similique minima laudantium assumenda in consequuntur explicabo corrupti perspiciatis.</p>
+        </div>
+
+        <div id="pop-up-7" class="pop-up-display-content">
+            <h1>Medium size</h1>
+            <p>Ipsa, esse, est, deserunt, deleniti libero aliquid accusantium et vitae laboriosam voluptatibus ut sed molestiae expedita aspernatur officia similique minima laudantium assumenda in consequuntur explicabo corrupti perspiciatis.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
