@@ -14,11 +14,10 @@ jQuery Pop Up Window plugin
 
 ###JavaScript
 ```
-  $('#pop-up-1').popUpWindow({action: "open"});
+  $('#pop-up').popUpWindow({action: "open"});
 ```
 
 ## Options
-`$('[data-rspimg]').responsiveImages({widthSyntax: "{width}", step: 100, maxSize: 1000});`
 
 * action - (open/close)
 * size - (small/medium/large)
